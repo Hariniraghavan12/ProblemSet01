@@ -1,0 +1,9 @@
+cp=24.95
+copy1_shipping=3
+additional_shipping=0.75
+discount=24.95*.40
+copy1=discount+copy1_shipping
+add_copy=discount+0.75
+copies=add_copy*59
+total_copies=copies+copy1
+print(total_copies)
